@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Product</title>
+        <link href='http://fonts.googleapis.com/css?family=Roboto:100,400,300,500,700' rel='stylesheet' type='text/css'>
+        <link href='./assets/global/bootstrap/css/bootstrap.css' rel='stylesheet' type='text/css'>
+        <link href="./assets/global/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+        <link href="./assets/global/bootstrap-select/css/bootstrap-select.css" rel="stylesheet" type="text/css">
+        <link href="./assets/global/slick/slick.css" rel="stylesheet" type="text/css">
+        <link href="./assets/global/slick/slick-theme.css" rel="stylesheet" type="text/css">
+        <link href="./assets/css/custom.css" rel="stylesheet" type="text/css">
+        
+    </head>
+    <body>
+        <div class="header-page">
+            <div class="container">
+                <div class="header-menu row no-margin">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <img src="./assets/images/logo.png" />
+                    </div>
+                    <div class="input-group col-lg-6 col-md-6 col-sm-3">
+                        <span class="input-group-btn">
+                            <a href="javascript:;" class="btn submit">
+                                <i class="fa fa-search" style="color: white"></i>
+                            </a>
+                        </span>
+                        <input type="text" class="form-control" placeholder="Search part numbers, manutacturers and categories">
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-5 col-xs-6" style="padding-right: 0px">
+                        <div class="row no-margin" style="display: inline-flex; width: 100%; align-items: center;">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-7">
+                                <select class="bs-select form-control" data-show-subtext="true" data-style="btn-primary">
+                                    <option data-content="<img src='./assets/images/flag2.png'> EN"> EN</option>
+                                    <option data-content="<img src='./assets/images/flag1.png'> GE"> GE</option>
+                                </select>
+                            </div>
+                            <div class="col-xs-5 mobileMenu">
+                                <div class="mobileMenu">
+                                    <a href="javascript:;" class="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavbar">
+                                        <span class="fa fa-reorder"> Menu</span>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 spare-parts-btn">
+                                <a href="javascript:;" >Spare parts</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="mainmenu text-left hide-item" id="collapsibleNavbar">
+                    <ul>
+                        <li>
+                            <a href="https://plctronic.com/en/service">
+                                <p>About</p>
+                            </a>
+                            <span class="hide-itm">Values</span>
+                        </li> 
+                        <li>
+                            <a href="https://plctronic.com/en/service">
+                                <p>Services</p>
+                            </a>
+                            <span class="hide-itm">Find our more</span>
+                        </li> 
+                        <li>
+                            <a href="https://plctronic.com/en/experience">
+                                <p>Experience</p></a>
+                            <span class="hide-itm">Past work</span>
+                        </li> 
+                        <li>
+                            <a href="https://plctronic.com/en/safety">
+                                <p>Safety</p>
+                            </a>
+                            <span class="hide-itm">Our priority</span>
+                        </li> 
+                        <li>
+                            <a href="https://plctronic.com/en/maintenance">
+                                <p>In the news</p>
+                            </a>
+                            <span class="hide-itm">The latest</span>
+                        </li> 
+                        <li>
+                            <a href="https://plctronic.com/en/contact-us">
+                                <p>Contact us</p>
+                            </a> 
+                            <span class="hide-itm">Say hello</span>
+                            <!-- <ul class="sub_menu hide-item">
+                                <li>
+                                    <a href="https://plctronic.com/en/contact-us"><p>Company details</p></a>
+                                    <span class="hide-itm">Invoicing data, contact form</span>
+                                </li> 
+                                <li>
+                                    <a href="https://plctronic.com/en/corporate-contact"><p>Customer support</p></a>
+                                    <span class="hide-itm">Contact our team</span>
+                                </li>
+                            </ul> -->
+                        </li>
+                        <li>
+                            <a href="https://plctronic.com/en/maintenance">
+                                <p>Spare parts</p>
+                            </a>
+                            <span class="hide-itm">Join our stock</span>
+                        </li>  
+                    </ul>
+            </nav>
+        </div>
+        <div class="content-area menubar green-background">
+            <div class="container">
+                <nav class="nav-menu">
+                    <ul>
+                        <li>
+                            <a href="https://plctronic.com/en/service">
+                                <p>About</p>
+                            </a>
+                            <span class="hide-item">Values</span>
+                        </li> 
+                        <li>
+                            <a href="https://plctronic.com/en/service">
+                                <p>Services</p>
+                            </a>
+                            <span class="hide-item">Find our more</span>
+                        </li> 
+                        <li>
+                            <a href="https://plctronic.com/en/experience">
+                                <p>Experience</p></a>
+                            <span class="hide-item">Past work</span>
+                        </li> 
+                        <li>
+                            <a href="https://plctronic.com/en/safety">
+                                <p>Safety</p>
+                            </a>
+                            <span class="hide-item">Our priority</span>
+                        </li> 
+                        <li>
+                            <a href="https://plctronic.com/en/maintenance">
+                                <p>In the news</p>
+                            </a>
+                            <span class="hide-item">The latest</span>
+                        </li> 
+                        <li>
+                            <a href="https://plctronic.com/en/contact-us">
+                                <p>Contact us</p>
+                            </a> 
+                            <span class="hide-item">Say hello</span>
+                            <ul class="sub_menu hide-item">
+                                <li>
+                                    <a href="https://plctronic.com/en/contact-us"><p>Company details</p></a>
+                                    <span class="hide-item">Invoicing data, contact form</span>
+                                </li> 
+                                <li>
+                                    <a href="https://plctronic.com/en/corporate-contact"><p>Customer support</p></a>
+                                    <span class="hide-item">Contact our team</span>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="https://plctronic.com/en/maintenance">
+                                <p>Spare parts</p>
+                            </a>
+                            <span class="hide-item">Join our stock</span>
+                        </li>  
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div id="navbar">
+            <div class="container">
+                <div class="row no-margin" style="display: flex;                 align-items: center;">
+                    <div class="col-lg-6 col-md-6 col-sm-6" style="display: flex; justify-content: flex-start">
+                        <div class="product-image">
+                            <img src="./assets/images/product.png">
+                        </div>
+                        <div class="header-product">
+                            <p>1FK7060-2AF74-4ZG2</p>
+                            <span>Siemens Servomotor <span class="text-italic gray-text">(1 year warranty)</span></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 no-padding" style="display: flex; justify-content: flex-end">
+                        <div class="product-btn ask-btn orange-border">
+                            <button>ASK ABOUT PRICE</button>
+                        </div>
+                        <div class="product-btn order-btn orange-border">
+                            <button>ORDER EXPRESS DELIVERY</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-content">
+            <div class="container product-preview">
+                <div class="sub-nav">
+                    <span>
+                        <a href="javascript:;">Home </a>
+                        >
+                        <a href="javascript:;"> Products </a>
+                        >
+                        <a href="javascript:;"> Lorem</a>
+                    </span>
+                </div>
+                <div class="row product-area1">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="img-zoom-container">
+                            <div class="title">
+                                <h3>1FK7060-2AF74-4ZG2</h3>
+                            </div>
+                            <img id="myimage" src="./assets/images/product_large.png" width="100%" height="100%">
+                            <div class="control-img">
+                                <div>
+                                    <a href="javascript:;" id="prev">
+                                        <i class="fa fa-chevron-left"></i>
+                                    </a>
+                                    <a href="javascript:;" id="next">
+                                        <i class="fa fa-chevron-right"></i>
+                                    </a>
+                                    <a href="javascript:;" id="zoom" style="padding-right: 10px" onclick='enableZoom();'>
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 div-space">
+                        <div class="product-detail">
+                            <p class="product-title">
+                                Siemens Servomotor 1FK7060-2AF74-4ZG2
+                            </p>
+                            <p>
+                                SIMOTICS S Synchromous motor 1FK7-CT PN=1.5kW; UDC=600V MO=6Nm (100K); NN=3000rpm; Naturally cooled
+                            </p>
+                            <span class="gray-text">Manufacturer: </span><span class="company-name">Siemens</span>
+                        </div>
+                        <div class="green-text" style="margin-bottom: 5px;">
+                            <p class="detail-items">
+                                <i class="fa fa-circle options"></i>
+                                <span>In Stock</span>
+                            </p>
+                        </div>
+                        <div>
+                            <span class="gray-text">SHIPPING INFORMATION</span>
+                            <div>
+                                <p class="detail-items">
+                                    <i class="fa fa-circle options"></i>
+                                    <span>World wide delivery</span>
+                                </p>
+                                <p class="detail-items">
+                                    <i class="fa fa-circle options"></i>
+                                    <span> Up to 4 days EU standard delivery or ask about express delivery</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <span class="gray-text">WARRANTY</span>
+                            <div>
+                                <p class="detail-items">
+                                    <i class="fa fa-circle options"></i>
+                                    <span> 12 months warranty</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <span class="gray-text">CONDITION</span>
+                            <div>
+                                <p class="detail-items">
+                                    <i class="fa fa-circle options"></i>
+                                    <span> Reconditionned</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="sell-product">
+                            <div class="ranking five-stars">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span>(32 Reviews)</span>
+                            </div>
+                            <div style="flex-direction: row">
+                                <div class="product-btn ask-btn orange-border" style="float: left;">
+                                    <button>ASK ABOUT PRICE</button>
+                                </div>
+                                <div class="product-btn order-btn orange-border">
+                                        <button>ORDER EXPRESS DELIVERY</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="myresult" class="img-zoom-result"></div>
+                    </div>
+                </div>
+                <div class="row product-area2">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 about-product">
+                        <div class="product-detail">
+                            <p class="product-title" style="margin-top: 0px">About this product</p>
+                            <p>
+                                Manufacturer part number: 1FK7060-2AF74-4ZG2 <br>
+                                Country of origin: Germany<br>
+                                <a href="javascript:;">I want to sell this product</a>
+                            </p>
+                        </div>
+                        <div class="product-detail">
+                            <p class="product-title" style="margin-top: 0px">Files & Specifications</p>
+                            <img src="./assets/images/design-machine.png">
+                        </div>
+                        <div class="product-detail">
+                            <a href="javascript:;">Question on item</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 payment-detail div-space">
+                        <div class="panel-group accordion" id="accordion3">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle accordion-toggle-styled" data-toggle="collapse" data-parent="#accordion3" href="#collapse_3_1"> Shipping Informations </a>
+                                    </h4>
+                                </div>
+                                <div id="collapse_3_1" class="panel-collapse in">
+                                    <div class="panel-body gray-text">
+                                        <p> Duis autem vel eum iriure dolor in hendrerit in vulputate. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut. </p>
+                                        <p> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                            </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle accordion-toggle-styled collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapse_3_2"> Payment Options </a>
+                                    </h4>
+                                </div>
+                                <div id="collapse_3_2" class="panel-collapse collapse">
+                                    <div class="panel-body gray-text">
+                                        <p class="detail-items">
+                                            <i class="fa fa-circle options"></i>
+                                            <span> Bank / Wire Transfer</span>
+                                        </p>
+                                        <p class="detail-items">
+                                            <i class="fa fa-circle options"></i>
+                                            <span> All major credit and debit cards accepted</span>
+                                        </p>
+                                        <p class="detail-items gray-text">
+                                            <i class="fa fa-circle options"></i>
+                                            <span class="gray-text"> Paypal</span>
+                                        </p>
+                                        <p class="detail-items gray-text">
+                                            <i class="fa fa-circle options"></i>
+                                            <span class="gray-text"> We accept currency: GBP, USD, or EUR</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle accordion-toggle-styled collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapse_3_3"> Warranty </a>
+                                    </h4>
+                                </div>
+                                <div id="collapse_3_3" class="panel-collapse collapse">
+                                    <div class="panel-body gray-text">
+                                        <p> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                            Brunch 3 wolf moon tempor. </p>
+                                        <p> Duis autem vel eum iriure dolor in hendrerit in vulputate. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut. </p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle accordion-toggle-styled collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapse_3_4"> Reason Why to Buy From Us </a>
+                                    </h4>
+                                </div>
+                                <div id="collapse_3_4" class="panel-collapse collapse">
+                                    <div class="panel-body gray-text">
+                                        <p> Duis autem vel eum iriure dolor in hendrerit in vulputate. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut. </p>
+                                        <p> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                            Brunch 3 wolf moon tempor. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-product">
+                <h1>People were also interested in</h1>
+                <div class="main-slider">
+                    <div class="slider slider-nav">
+                        <div class="slider-item">
+                            <img src="./assets/images/product_mid.png">
+                            <p class="product-name">LOREM IPSUM</p>
+                            <p>DOLOR SIT AMET AMAVI</p>
+                        </div>
+                        <div class="slider-item">
+                            <img src="./assets/images/product_mid.png">
+                            <p class="product-name">LOREM IPSUM</p>
+                            <p>DOLOR SIT AMET AMAVI</p>
+                        </div>
+                        <div class="slider-item">
+                            <img src="./assets/images/product_mid.png">
+                            <p class="product-name">LOREM IPSUM</p>
+                            <p>DOLOR SIT AMET AMAVI</p>
+                        </div>
+                        <div class="slider-item">
+                            <img src="./assets/images/product_mid.png">
+                            <p class="product-name">LOREM IPSUM</p>
+                            <p>DOLOR SIT AMET AMAVI</p>
+                        </div>
+                        <div class="slider-item">
+                            <img src="./assets/images/product_mid.png">
+                            <p class="product-name">LOREM IPSUM</p>
+                            <p>DOLOR SIT AMET AMAVI</p>
+                        </div>
+                        <div class="slider-item">
+                            <img src="./assets/images/product_mid.png">
+                            <p class="product-name">LOREM IPSUM</p>
+                            <p>DOLOR SIT AMET AMAVI</p>
+                        </div>
+                        <div class="slider-item">
+                            <img src="./assets/images/product_mid.png">
+                            <p class="product-name">LOREM IPSUM</p>
+                            <p>DOLOR SIT AMET AMAVI</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="intro-company">
+                <div class="row no-margin row-flex ">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-padding gradient-green-background">
+                        <div class="company-info-text">
+                            <h2>INDUSTRIAL MAINTENANCE AND REPAIR COMPANY</h2>
+                            <hr>
+                            <p>We provide a huge range of services including servicing, repairing or replacing of malfunctioning components, control system, servomotors etc..<br>
+                                Maintenance and adjustment of Industrial Machinery<br>
+                                We stretch and do transport of machines. We also sell reconditioned replacement parts.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-padding intro-image">
+                        <img src="./assets/images/work_image1.png" width="100%">
+                        <div class="gear-image">
+                            <img src="./assets/images/gear-image.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pdf-download">
+                <div class="container">
+                    <div class="row no-margin">
+                        <div class="pdf-image col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                            <img src="./assets/images/pdf_image.png" width="70px">
+                        </div>
+                        <div class="col-lg-10 col-md-10 col-xm-10 col-xs-10">
+                            <h3>Introduction to Eletronic.</h3>
+                            <p>Eletronic Automation Business is one of the world's providers of industrial, electronic and robotic automation repairs and spares. Our state of the art workshops and highly skilled engineers enable us to repair over 5,000 industrial automation parts form more than 1,000 manufactures. <br>
+                                We also supply new, refurbished and service exchange parts.
+                            </p>
+                            <a href="javascript:;">Download Our Brochure.</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="equipment-company">
+                <div class="row no-margin equipment-content">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-padding equipment-logo">
+                        <img src="./assets/images/work_image2.png" width="100%">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-padding equipment-desc">
+                        <div>
+                            <h2 class="equipment-desc-item">DO YOU HAVE EQUIPMENT TO SELL?</h2>
+                            <p class="equipment-desc-item">
+                                We help protext the environment by collecting your industrial electronic quipment. Optimise your warehouse space and get rid of ageing inventory.
+                            </p>
+                            <div class="equipment-desc-item equipment-btn orange-border">
+                                <button>READ MORE <i class="fa fa-arrow-right" style="padding-left: 10px"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="position-fixed feedback">
+                <a href="javascript:;" onclick="openFeedback()"><span class="feedback-title">Feedback</span></a>
+                <div class="feedback-content">
+                    <div class="feedback-header green-background">
+                        <span>How do you like our page?</span>
+                        <a href="javascript:;" onclick="openFeedback()"><i class="fa fa-close"></i></a>
+                    </div>
+                    <div class="feedback-body">
+                        <div class="feedback ranking five-stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span>3/5</span>
+                        </div>
+                        <div>
+                            <p><b>Tell us what you think</b></p>
+                            <textarea></textarea>
+                            <input type="email" id="email" placeholder=" Your email">
+                            <button class="green-background send-btn">SEND</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page-footer">
+            <div class="container">
+                <div class="footer-category category row">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 gray-right-border">
+                        <div class="logo">
+                            <img src="./assets/images/logo.png" />
+                        </div>
+                        <div class="company-info">
+                            <p>PLCTRONIC s.r.c.</p>
+                            <p>komoravska 54</p>
+                            <p>komoravska 54</p>
+                            <br>
+                            <p>email@pictronic.com</p>
+                            <p class="green-text">421 904 932 284</p>
+                        </div>
+                        <div class="products-slide">
+                            <div class="lazy slider row no-margin">
+                                <div class="slide-imgs col-lg-4 col-md-4 col-sm-4 col-xs-4 no-padding">
+                                    <img src="./assets/images/product.png">
+                                </div>
+                                <div class="slide-imgs col-lg-4 col-md-4 col-sm-4 col-xs-4 no-padding">
+                                    <img src="./assets/images/product.png">
+                                </div>
+                                <div class="slide-imgs col-lg-4 col-md-4 col-sm-4 col-xs-4 no-padding">
+                                    <img src="./assets/images/product.png">
+                                </div>
+                                <!-- <div class="slide-button col-lg-3 col-md-3 col-sm-3 col-xs-3 no-padding">
+                                    <span>></span>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-6 col-xs-12">
+                        <div class="category-item col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                            <p style="margin-bottom: 20px">Lorem Ipsum</p>
+                            <ul>
+                                <li>Maecenas</li>
+                                <li>Quam sem</li>
+                                <li>Acinia vitae egestas</li>
+                                <li>Sed, commodo</li>
+                                <li>Nulla tristique</li>
+                                <li>Orci varius</li>
+                            </ul>
+                        </div>
+                        <div class="category-item col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                            <p style="margin-bottom: 20px">Lorem Ipsum</p>
+                            <ul>
+                                <li>Maecenas</li>
+                                <li>Quam sem</li>
+                                <li>Acinia vitae egestas</li>
+                                <li>Sed, commodo</li>
+                                <li>Sed Ex.</li>
+                            </ul>
+                        </div>
+                        <div class="category-item col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                            <p style="margin-bottom: 20px">Lorem Ipsum</p>
+                            <ul>
+                                <li>Maecenas</li>
+                                <li>Quam sem</li>
+                                <li>Acinia vitae egestas</li>
+                                <li>Sed, commodo</li>
+                                <li>Nulla tristique</li>
+                            </ul>
+                        </div>
+                        <div class="category-item col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                            <p style="margin-bottom: 20px">Lorem Ipsum</p>
+                            <ul>
+                                <li>Maecenas</li>
+                                <li>Quam sem</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-social-link">
+            <div class="row no-margin" style="height: 100%">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="height: 100%; font-size: 14px; padding-top: 15px; padding-left: 30px; font-family: 'Montserrat'">@2019</div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-padding" style="height: 100%">
+                    <div class="position-right social-links green-background">
+                        <ul>
+                            <li>
+                                <a href="javascript:;">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <i class="fa fa-youtube-play"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./assets/global/jquery.min.js" type="text/javascript"></script>
+        <script src="./assets/global/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="./assets/global/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="./assets/global/bootstrap-select/js/bootstrap-select.js" type="text/javascript"></script>
+        <script src="./assets/global/app.js" type="text/javascript"></script>
+        <script src="./assets/global/components-bootstrap-select.js" type="text/javascript"></script>
+        <script src="./assets/global/slick/slick.js" type="text/javascript"></script>
+        <script src="./assets/javascript/custom_product.js" type="text/javascript"></script>
+    </body>
+</html>
