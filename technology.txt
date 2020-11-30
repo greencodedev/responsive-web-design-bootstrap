@@ -1,0 +1,2 @@
+This project is landing pages of website based on Bootstrap, jQuery, HTML and CSS.
+cross-platform and full responsive.
